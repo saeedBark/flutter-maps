@@ -17,6 +17,7 @@ class _GoogleMapPageState extends State<GoogleMapPage> {
   final locationController = Location();
 
   static const googlePlex = LatLng(18.0790, -15.9650);
+
   static const mountainView = LatLng(18.10397, -15.99165);
 
   LatLng? currentPosition;
